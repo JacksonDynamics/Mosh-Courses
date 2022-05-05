@@ -2,8 +2,7 @@ body {
     margin: 10px;
 }
 
-
-#products ~ p {
+#product ~ p {
     color: orange;
 }
 
@@ -47,4 +46,35 @@ p::first-line {
 p::after {
     content: "...";
     display: block;
+}
+
+h1 {
+    color: dodgerblue;
+}
+
+.highlight {
+    color: deeppink;
+}
+
+#products {
+    color: green;
+}
+
+h1#products{
+    color: dodgerblue;
+}
+
+.featured#products {
+    color: blue;
+}
+
+div {
+    color: green;
+    border: 1px solid black;
+    
+}
+
+strong {
+    color: initial;
+    border: inherit;
 }
