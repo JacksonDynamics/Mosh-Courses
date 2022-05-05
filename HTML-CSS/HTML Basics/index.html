@@ -21,6 +21,25 @@
             width: 533px;
 
         }
+        ul {
+            list-style-type:decimal;
+        }
+        table, td, th {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        tfoot {
+            text-align: left;
+        }
+        .product {
+            background-color: gold;
+            width: 300px;
+        }
+        .highlight {
+            background-color: yellow;
+
+        }
     </style>
 </head>
 <h1>Heading 1</h1>
@@ -54,6 +73,121 @@
         <br/>
         <img src="images/2.jpg" alt="Car from the front">
         <video controls autoplay loop src="videos/Ocean.mp4">Your browser doesn't support videos. </video>
+        <br/>
+
+        <ul>
+            <li>About Me</li>
+            <li>Courses
+                <ul>
+                    <li>HTML</li>
+                    <li>Javascript</li>
+                    <li>GIT</li>
+                </ul>
+            </li>
+            <li>Subscribe</li>
+            <li>Contact Me</li>
+        </ul>
+
+        <ol>
+            <li>Preheat the oven.</li>
+            <li>Place the ingredients on the crust.</li>
+            <li>Put the pizza in the oven for 20 min.</li>
+        </ol>
+
+        <dl>
+            <dt>Title</dt>
+            <dd>The Ultimate HTML and CSS Course</dd>
+            <dt>Author</dt>
+            <dd>Jackson</dd>
+        </dl>
+
+        <br/>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Expenses</th>
+                </tr>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Marketing</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Accounting</td>
+                    <td>$200</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th>$300</th>
+                </tr>
+            </tfoot>
+        </table>
+
+        <br/>
+
+        <div class="product">
+           <p>Lorem ipsum dolor sit amet.</p>
+           <a href="#">Link</a>
+        </div>
+        <div class="product">
+           <p>Lorem ipsum dolor sit amet.</p>
+           <a href="#">Link</a>
+        </div>
+
+        <br/>
+
+        <p><span class="highlight">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Animi, vel.</p>
+        
+        <br>
+
+        <article class="article">
+            <h1>Heading</h1>
+            <p>Published <time datetime="2022-05-04 20:00">May 4, 2022 8:00pm</time></p>
+            <p><mark>Lorem</mark> ipsum dolor sit, amet consectetur adipisicing elit. Vel accusantium est assumenda aut quo optio. Illo tenetur voluptatum facilis nisi dolorem adipisci distinctio doloremque laboriosam est ab. Labore, blanditiis neque!</p>
+            <figure>
+                <img src="images/6.jpg" alt="Car">
+                <figcaption>My Coffee This Morning</figcaption>
+            </figure>
+        </article>
+
+        <header>
+            <nav>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Products</h2>
+                <article></article>
+                <article></article>
+                <article></article>
+            </section>
+            <section>Testimonial</section>
+            <article>
+                <section></section>
+                <section></section>
+                <section></section>
+            </article>
+            <article></article>
+        </main>
+        <aside></aside>
+        <footer>
+            <nav>
+                <ul></ul>
+            </nav>
+        </footer>
     </body>
 </html>
 
