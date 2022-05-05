@@ -1,0 +1,16 @@
+body {
+    margin: 10px;
+}
+
+
+#products ~ p {
+    color: orange;
+}
+
+.product {
+
+}
+
+a[target=_blank] {
+
+}
