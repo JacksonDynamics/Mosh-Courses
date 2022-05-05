@@ -68,15 +68,36 @@ h1#products{
     color: blue;
 }
 
-
-
 strong {
     color: initial;
     border: inherit;
 }
 
+/*use css gradient or a gradient generator from google */
 .box {
     width: 200px;
     height: 200px;
-    background-color: rgb(169, 205, 167)
+    background: dodgerblue;
+    box-shadow: 10px;
+    border: 10px dashed royalblue;
+    border-top: 20px solid royalblue;
+    background: linear-gradient(45deg, 
+                rgba(2,0,36,1) 0%, 
+                rgba(59,59,210,1) 35%,  
+                rgba(0,212,255,1) 100%);
+                box-shadow: 10px 10px;
+
+}
+
+.boxes {
+    width: 200px;
+    height: 200px;
+    background: rgb(129, 22, 8);
+    box-shadow: 0 0 30px;
+}
+
+h3 {
+    color: white;
+    padding: 20px;
+    text-shadow: 3px 3px 5px rgba(0,0,0,1)
 }
