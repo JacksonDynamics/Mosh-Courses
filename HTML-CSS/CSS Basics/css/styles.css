@@ -68,13 +68,15 @@ h1#products{
     color: blue;
 }
 
-div {
-    color: green;
-    border: 1px solid black;
-    
-}
+
 
 strong {
     color: initial;
     border: inherit;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(169, 205, 167)
 }
