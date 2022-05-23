@@ -22,6 +22,7 @@ numbers.splice(2, 0, 'a', 'b')
 console.log(numbers);
 
 
+// --------------------------
 console.log("\n" + "-".repeat(30));
 
 //REMOVING ELEMENTS FROM AN ARRAY
