@@ -2,6 +2,7 @@
 function walk() {
   console.log('walk')
 }
+walk()
 
 // Anonymous Function Expression.  
 // Alternatively, you can make a Named Function Expression by calling 
