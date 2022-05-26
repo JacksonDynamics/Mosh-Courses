@@ -1,4 +1,5 @@
-// If you are wanting to use more parameters than JavaScript allows, you can utilize the "arguments" keyword instead.  Arguments will create an object (not an array, even though it looks like one) that is iterable for as many parameters as we wish and loop through them .
+// If you are wanting to use more parameters than JavaScript allows, you can utilize the "arguments" keyword instead.  Arguments will create 
+// an object (not an array, even though it looks like one) that is iterable for as many parameters as we wish and loop through them .
 
 
 // By using ...args in the parameter field, this will implement the Rest Operator to use args instead of the JavaScript standard parameters.  
