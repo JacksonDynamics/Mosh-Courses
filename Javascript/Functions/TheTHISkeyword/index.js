@@ -18,7 +18,7 @@ video.stop = function() {
 video.stop();
 video.play();
 
-console.log("-".repeat(25))
+console.log("-".repeat(24))
 
 // when dealing with a regular function, 'this' references the global object, which is window in browsers and global in node
 function playVideo() {
@@ -27,7 +27,7 @@ function playVideo() {
 
 playVideo();
 
-console.log("-".repeat(25))
+console.log("-".repeat(24))
 
 // if you use a constructor, the 'this' will create a new empty object. The 'this' will point to the new empty {}.  
 
@@ -47,7 +47,7 @@ console.log(w);
 console.log(v);
 
 
-console.log("-".repeat(25));
+console.log("-".repeat(24));
 
 // If we want to use the tags value, we can start by referencing this.tags. and then use the forEach since tags is an [].  forEach() runs a function on each element in the array. so put function(tag) in for reference.  Now we want to put that on the console.  If we put just (tag), that will provide the array elements one at a time.  
 const video2 = {
@@ -63,3 +63,70 @@ const video2 = {
 };
 
 video2.showTags();
+
+console.log("-".repeat(24));
+
+
+//  This is another way of writing the same code as video2.  Sometimes you will see this in coding, but it is not the preferred way to code.
+const video3 = {
+  title: 'a',
+  tags: ['a', 'b', 'c'],
+  showTags() {
+    const self = this;
+    this.tags.forEach(function(tag) {
+      console.log(self.title, tag);
+    });
+  }
+};
+
+video3.showTags();
+
+console.log("-".repeat(24));
+
+
+
+function playVideo2() {
+  console.log(this);
+}
+// using the .call() method will access this new {}
+playVideo2.call({ name: 'Mosh' }, 1, 2);
+// Alternatively, we can use the .apply() method if parameters include []
+playVideo2.apply({ name: 'Mosh' }, [1, 2]);
+// Or we can use bind
+playVideo2.bind({ name: 'Mosh' })();
+
+
+// In contrast, if we used just playVideo2(), we would get the Window {}
+playVideo2();
+
+
+console.log("-".repeat(23));
+
+// Yet another way to write the code from above using the .bind() method
+const video4 = {
+  title: 'a',
+  tags: ['a', 'b', 'c'],
+  showTags() {
+    this.tags.forEach(function(tag) {
+      console.log(this.title, tag);
+    }.bind(this));
+  }
+};
+
+video4.showTags();
+
+
+console.log("-".repeat(23));
+
+// This is the BEST WAY to write code using the =>
+const video5 = {
+  title: 'a',
+  tags: ['a', 'b', 'c'],
+  showTags() {
+    this.tags.forEach((tag) => {
+      console.log(this.title, tag);
+    });
+  }
+};
+
+video5.showTags();
