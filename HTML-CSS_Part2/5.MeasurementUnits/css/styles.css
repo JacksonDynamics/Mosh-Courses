@@ -35,9 +35,13 @@ body {
 /* rem is based off the font-size of root element, which is 16px.  */
 /* So 10rem = 10 x 16px = 160px....   but what if you had 15rem?  */
 /* if you want to use rem, a neat calculation trick is to create a new element at the top of the style.css file */
-html {
+
+
+/* html { */
     /* 62.5% of 16 px = 10px  */
-    font-size: 62.5%;
-}
+    /* font-size: 62.5%;
+} */
+
+
 /* this will now allow any rem values to be a simple x 10px.  */
 /* 15rem = 10px x 15px = 150px  */
