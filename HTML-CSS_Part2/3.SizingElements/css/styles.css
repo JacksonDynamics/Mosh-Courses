@@ -11,6 +11,7 @@ body {
 .box::before {
     content: "Hello";
 }
+
 .box {
     width: 100px;
     height: 100px;
