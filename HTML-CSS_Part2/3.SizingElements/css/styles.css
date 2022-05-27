@@ -1,8 +1,19 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 10px;
 }
 
-p {
-    padding:0px; /* trbl */
-    margin: 20px;
+.box::before {
+    content: "Hello";
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    display: inline-block;
 }
