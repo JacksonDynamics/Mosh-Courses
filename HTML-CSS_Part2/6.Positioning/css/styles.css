@@ -1,0 +1,45 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* margin: 10px; */
+}
+
+.boxes {
+    border: 3px solid lightgrey;
+    position: relative;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background: gold;
+}
+.box-two {
+    background: tomato;
+    /* position: is set to relative instead of default of static, when we want to reposition  */
+    position: relative;
+    /* left will push the box to the right and right will push the box to the left  */
+    left: 4rem;
+    /* bottom will push the box to the top and top will push the box to the bottm  */
+    bottom: 4rem;
+    /* z-index is a depth instructor.  -1 pushes back, and 1 pushes forward  */
+    z-index:-1;
+}
+.box-three {
+    background: dodgerblue;
+}
+
+
+
+/* RELATIVE: relative to the element's normal position */
+
+/* ABSOLUTE: relative to the parent */
+
+/* FIXED: relative to the viewport */
