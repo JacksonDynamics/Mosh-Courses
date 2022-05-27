@@ -1,0 +1,43 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* margin: 10px; */
+}
+
+.box {
+    /* 50% of the width of the parent element <body> for example */
+    width: 10rem;
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid orange;
+}
+
+/* Different sizes are px, %, vw, vh, em, rem */
+/* px stands for pixels.  Does not adjust.  Always stays the same size */
+
+/* % for width will give the % of the parent element */
+/* % for height will give the % of the parent element. This is tricky  */
+/* If parent element has no defined height, it will be 0. it goes off the px unit */
+
+/* vh is relative to the viewport and is generally easier than height % */
+/* vw is based off of the width of the viewport */
+
+/* em is used to adjust the layout according to the font-size.  If the */
+/* font becomes bigger, we want the width to increase as well */
+/* ex: 10em = 10 x font size of the current element */
+/* standard font size is 16px, so 10 x 16px = 160px  */
+/* if you set font-size to 20px, that would be 10em = 10 x 20px = 200px  */
+
+/* rem is based off the font-size of root element, which is 16px.  */
+/* So 10rem = 10 x 16px = 160px....   but what if you had 15rem?  */
+/* if you want to use rem, a neat calculation trick is to create a new element at the top of the style.css file */
+html {
+    /* 62.5% of 16 px = 10px  */
+    font-size: 62.5%;
+}
+/* this will now allow any rem values to be a simple x 10px.  */
+/* 15rem = 10px x 15px = 150px  */
