@@ -22,7 +22,7 @@
 .box-one {
 }
 
-/* justify-content (along the main axis.  Could be row or column 
+justify-content (along the main axis.  Could be row or column 
 align-items (along the cross axis).
 display: flex  will access flexbox.
 flex-direction can be row or column.
