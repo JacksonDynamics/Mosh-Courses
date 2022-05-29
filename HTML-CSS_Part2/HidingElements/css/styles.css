@@ -1,0 +1,4 @@
+.first {
+    display: none;  /* will hide this class */
+    visibility: hidden; /* element will be hidden, but the space allocated will still be there */
+}
