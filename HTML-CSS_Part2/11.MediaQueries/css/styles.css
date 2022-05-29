@@ -37,4 +37,6 @@
 }
 
 /* 
-Media types can be set to all, print, screen, or speech. The all type, which is the most common type and the default in HTML5, applies the media query to every media type. But if you want the styles within the media query to apply only when the web page is printed, you can use print instead. */
+Media types can be set to all, print, screen, or speech. The all type, which is the most common type and the default in HTML5, 
+applies the media query to every media type. But if you want the styles within the media query to apply only when the web page 
+is printed, you can use print instead. */
