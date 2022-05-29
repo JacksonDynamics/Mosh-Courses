@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    /* 3 x 2 */
+    /* grid-template-rows: repeat(3, 100px); /* height */
+    /* grid-template-columns: repeat(2, 100px); width */
+    grid-template: repeat(3, 100px) / repeat(2, 100px);
+    grid-template-areas:"header header" 
+                        "sidebar main" 
+                        "footer footer";
+    border: 3px solid lightgrey;
+    justify-items: center; /* horizontal alignment of items */
+    align-items: center;/* vertical alignment of items */
+    justify-content: center; /* moves items into center of container horizontally */
+    align-content: center; /* moves items into center of container vertically. Won't notice unless the height is set to be higher though than the items grid we created */
+    height: 100vh;
+    
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+}
+
+.box-one {
+    grid-column:1 / span 2;
+    grid-area: header;
+
+}
+
+/* ALIGNING ITEMS
+justify-items (along the HORIZONTAL axis)
+aligh-items (along the VERTICLE axis)
+
+row-gap = gap at the bottom of the item.
+column-gap = gap at the side of the item.
+gap = row-gap and column gap combined.
+
+gap: repeat(2, 10px)
+
+PLACING ITEMS
+grid-row = 
+grid-column
+grid */
+
+
+PLACING ITEMS IN NAMED AREAS
+grid-template-areas
+grid-area
