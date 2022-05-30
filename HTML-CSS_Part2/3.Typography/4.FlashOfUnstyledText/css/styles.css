@@ -4,7 +4,10 @@
        url('fonts/open-sans/reey-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: optional; /* to avoid flash of unstyled text, we should use font-display: here.  OPTIONAL is best, but you can also use auto, swap, fallback, or block. */
+  font-display: optional; /* to avoid flash of unstyled text, we should use font-display: here.  OPTIONAL is best, but you can also use 
+                                                                                                          auto, swap, fallback, or block. 
+  You can also use the WEBFONT GENERATOR on fontsquirrel.com and set it to expert.  Select just the subsetting that you are using in your 
+  generated text to reduce the file size for quicker downloading */
 
 }
 @font-face {
