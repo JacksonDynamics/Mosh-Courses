@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'reeyregular';
+  src: url('fonts/open-sans/reey-regular-webfont.woff2') format('woff2'),
+       url('fonts/open-sans/reey-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional; /* to avoid flash of unstyled text, we should use font-display: here.  OPTIONAL is best, but you can also use auto, swap, fallback, or block. */
+
+}
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/open-sans/opensans-regular-webfont.woff2') format('woff2'),
+       url('fonts/open-sans/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'opensans';
+  src: url('fonts/open-sans/opensans-bold-webfont.woff2') format('woff2'),
+       url('fonts/open-sans/opensans-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+html {
+  /* 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  margin: 10px;
+  font-family: "reeyregular", Arial, Helvetica, sans-serif; 
+  font-size: 1rem; /* 1 x font size of the root element (html) */ 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif; /* hit control + space to give you the primary generic font-family's for most browsers */
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1rem;
+  color: #333 /* general text is better to be slightly lighter than black */
+}
+
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 130%;
+  }
+}
