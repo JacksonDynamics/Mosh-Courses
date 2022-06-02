@@ -22,6 +22,13 @@ Looks sharp at any size
 | WebP  |  16M   |       *      |     *     |
 
 
+
+|  |  |  |  |  |
+|---|---|---|---|---|
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
 Transparency is when you can have a transparent background.  The checkered background in Illustrator.
 WebP is a new format, but currently is only supported by around 90% of browsers.
 
