@@ -23,7 +23,7 @@ Looks sharp at any size
 
 
 
-|  |  |  |  |  |
+|  | Colors | Transparency | Animation |  
 |---|---|---|---|---|
 |  |  |  |  |  |
 |  |  |  |  |  |
