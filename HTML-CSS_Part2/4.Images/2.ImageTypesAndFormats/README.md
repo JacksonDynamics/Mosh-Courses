@@ -14,12 +14,12 @@ Vector is created in software (Illustrator)
 Format: SVG  Scalable Vector Graphics
 Looks sharp at any size
 
-|      | Colors | Transparency | Animation |
-|:--------------|:-------------|:----------|
-|JPEG  |  16M   |              |           |
-|GIF   |  256   |      *       |     *     |
-|PNG   |  16M   |      *       |     *     |
-|WebP  |  16M   |      *       |     *     |
+|       | Colors | Transparency | Animation |
+| ---------------|--------------|-----------|
+| JPEG  |  16M   |              |           |
+| GIF   |  256   |       *      |     *     |
+| PNG   |  16M   |       *      |     *     |
+| WebP  |  16M   |       *      |     *     |
 
 
 Transparency is when you can have a transparent background.  The checkered background in Illustrator.
