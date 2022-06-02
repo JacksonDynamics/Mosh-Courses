@@ -23,9 +23,9 @@ Looks sharp at any size
 
 
 
-|  | Colors | Transparency | Animation |  
-|---|---|---|---|---|
-|  |  |  |  |  |
+|      | Colors | Transparency | Animation |  
+|------|--------|--------------|-----------|
+| JPEG |   16M  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
