@@ -14,21 +14,13 @@ Vector is created in software (Illustrator)
 Format: SVG  Scalable Vector Graphics
 Looks sharp at any size
 
-|       | Colors | Transparency | Animation |
-| ---------------|--------------|-----------|
-| JPEG  |  16M   |              |           |
-| GIF   |  256   |       *      |     *     |
-| PNG   |  16M   |       *      |     *     |
-| WebP  |  16M   |       *      |     *     |
-
-
 
 |      | Colors | Transparency | Animation |  
 |------|--------|--------------|-----------|
-| JPEG |  16M  ||| 
-| GIF | 256 | * | * | 
-| PNG | 16M | * | * |
-| WebP | 16M | * | * |
+| JPEG |  16M   |              |           | 
+| GIF  |  256   | *            |   *       | 
+| PNG  |  16M   | *            | *         |
+| WebP |  16M   | *            | *         |
 
 Transparency is when you can have a transparent background.  The checkered background in Illustrator.
 WebP is a new format, but currently is only supported by around 90% of browsers.
