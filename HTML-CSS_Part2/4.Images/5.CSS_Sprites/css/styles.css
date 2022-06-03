@@ -29,9 +29,11 @@
 
 /* 
 
-for logos and icons, we should use sprites with a css sprite generator like https://css.spritegen.com/ because it will only have to generate one http request for multiple png images instead of one http request for every png image we want to obtain.
+for logos and icons, we should use sprites with a css sprite generator like https://css.spritegen.com/ because it will only have 
+to generate one http request for multiple png images instead of one http request for every png image we want to obtain.
 
-the process is to go to https://css.spritegen.com/ and then upload the images we wish to combine.  Once generated, we add the combined png into our images and also add the css code created and put it into our style.css file.  Then we can access these images in HTML
+the process is to go to https://css.spritegen.com/ and then upload the images we wish to combine.  Once generated, we add the combined 
+png into our images and also add the css code created and put it into our style.css file.  Then we can access these images in HTML
 
 <div class="bg-dishes"></div>
 <div class="bg-landing"></div>
@@ -42,6 +44,7 @@ the process is to go to https://css.spritegen.com/ and then upload the images we
 Sprites are great, but there are sometimes still PROBLEMS:
 
 File size can get too large
-Sprites are not flexible, so if you have to add an image, you will have to REGENERATE a new sprite and css info before you can access them.  For this reason, we use sprites primarily for logos and icons. 
+Sprites are not flexible, so if you have to add an image, you will have to REGENERATE a new sprite and css info before you can access them.  
+For this reason, we use sprites primarily for logos and icons. 
 
 */
