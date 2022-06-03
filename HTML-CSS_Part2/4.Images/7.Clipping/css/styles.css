@@ -1,0 +1,8 @@
+.meal {
+  clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+
+}
+
+
+
+/* You can clip any image to be whatever size you want easily using online tools.  https://bennettfeely.com/clippy/ and then select the clip style you wish.  Once you have your clip, copy the clip-path and paste into your css.  Simple and easy. */
