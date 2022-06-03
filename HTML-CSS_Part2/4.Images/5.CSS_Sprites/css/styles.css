@@ -1,0 +1,47 @@
+.bg-dishes, 
+.bg-landing, 
+.bg-rocketship, 
+.bg-saturn, 
+.bg-ufo { 
+  display: inline-block; 
+  background: url('../images/combinedsprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; 
+  background-position: 0px -0px;
+  display: inline-block;
+}
+ 
+.bg-dishes { 
+  background-position: -0px -0px; width: 100px; height: 100px; 
+}
+.bg-landing { 
+  background-position: -100px -0px; width: 100px; height: 100px; 
+}
+.bg-rocketship { 
+  background-position: -0px -100px; width: 100px; height: 100px; 
+}
+.bg-saturn { 
+  background-position: -100px -100px; width: 100px; height: 100px; 
+}
+.bg-ufo { 
+  background-position: -0px -200px; width: 100px; height: 100px; 
+}
+
+
+
+/* 
+
+for logos and icons, we should use sprites with a css sprite generator like https://css.spritegen.com/ because it will only have to generate one http request for multiple png images instead of one http request for every png image we want to obtain.
+
+the process is to go to https://css.spritegen.com/ and then upload the images we wish to combine.  Once generated, we add the combined png into our images and also add the css code created and put it into our style.css file.  Then we can access these images in HTML
+
+<div class="bg-dishes"></div>
+<div class="bg-landing"></div>
+<div class="bg-rocketship"></div>
+<div class="bg-saturn"></div>
+<div class="bg-ufo"></div>
+
+Sprites are great, but there are sometimes still PROBLEMS:
+
+File size can get too large
+Sprites are not flexible, so if you have to add an image, you will have to REGENERATE a new sprite and css info before you can access them.  For this reason, we use sprites primarily for logos and icons. 
+
+*/
