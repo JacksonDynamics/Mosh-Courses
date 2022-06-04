@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo's</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+   <img class="meal" 
+        src="images/meal.jpg" 
+        alt="Salmon and curry"
+        srcset="images/meal.jpg     400w, 
+                images/meal@2x.jpg  800w,
+                images/meal@3x.jpg 1200w"
+        sizes="
+              (max-width: 500px) 100vw,
+              (max-width: 700px)  50vw,
+              33vw
+              ">
+  </body>
+</html>
 
+
+
+<!-- responsivebreakpoints.com is a great resource to choose the best breakpoints for your project depending on the devices you want to display on -->
