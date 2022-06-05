@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo's</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <img src="images/meal.webp" alt="">
+    <img src="images/meal.jpg" alt="">
+    <picture>
+      <source srcset="images/meal.webp" 
+              type="image/webp">
+      <source srcset="images/meal.jpg" 
+              type="image/jpg">
+      <img src="images/meal.jpg" alt="A bowl of salmon and curry">
+    </picture>
+  </body>
+</html>
 
+
+
+<!-- webp vs jpg are very similar, but webp is a lot less size of memory.  meal.webp is only 97kb vs the meal.jpg which is 260kb -->
