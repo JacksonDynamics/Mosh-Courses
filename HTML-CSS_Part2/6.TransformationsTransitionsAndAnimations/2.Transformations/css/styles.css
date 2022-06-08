@@ -1,0 +1,23 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+}
+
+.box:hover {
+    transform: scale(5);
+    /* you can also use 
+    rotate(45deg) 
+    skew(-15deg) 
+    translate(10px, 10px)
+    translatex(15px) or translatey(15px) 
+    
+    order does matter of how you place these transform elements */
+}
