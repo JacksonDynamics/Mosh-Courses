@@ -1,0 +1,41 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.5);
+    }
+    50% {
+        transform: rotate(45deg);
+        background: tomato;
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+}
+
+.animation-pop {
+    animation-name: pop;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+
+/* animate.style is a great website to help you use already created animations.  just copy the CDN and paste the link in our html file. then copy the animate__animated animate__bounce and paste it into our box class "" */
