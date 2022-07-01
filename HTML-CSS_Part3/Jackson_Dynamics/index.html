@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Caveat&family=Inter:wght@400;600;700&family=Permanent+Marker&family=Zen+Dots&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <header>
@@ -29,14 +31,14 @@
 
     <section class="block block--dark block--skewed-left hero">
         <div class="container grid grid--1x2">
-            <header class="block__header hero__content">
+            <header class="block__header hero__content" data-aos="fade-right">
                 <h1 class="block__heading">Cloud Hosting for Pros</h1>
                 <p class="hero__tagline">
                     Deploy your websites in less than 60 seconds.
                 </p>
                 <a href="" class="btn btn--accent btn--stretched">Get Started</a>
             </header>
-            <picture>
+            <picture data-aos="fade-left">
                 <source type="image/webp" 
                         srcset="images/banner.webp 1x, 
                                 images/banner@2x.webp 2x">
@@ -49,7 +51,7 @@
     </section>
 
     <section class="block container block-domain">
-        <header class="block__header">
+        <header class="block__header" data-aos="fade-up">
             <h2>Starting at $9 per month</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, non.</p>
         </header>
@@ -75,7 +77,7 @@
     </section>
 
     <section class="block container block-plans">
-        <div class="grid grid--1x3">
+        <div class="grid grid--1x3" data-aos="fade-up">
             <div class="plan">
                 <div class="card card--secondary">
                     <header class="card__header">
@@ -145,7 +147,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, sunt?</p>
         </header>
         <article class="grid grid--1x2 feature">
-            <div class="feature__content">
+            <div class="feature__content" data-aos="fade-right">
                 <span class="icon-container">
                     <svg class="icon icon--primary">
                         <use xlink:href="images/sprite.svg#easy"></use>
@@ -157,7 +159,7 @@
                 </p>
                 <a href="#" class="link-arrow">Learn More</a>
             </div>
-            <picture>
+            <picture data-aos="zoom-in-left">
                 <source type="image/webp" 
                         srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
                 <source type="image/jpg" 
@@ -234,13 +236,13 @@
         <header class="block__header">
             <h2>User-friendly Control Panel</h2>
         </header>
-        <div class="container grid grid--1x2">
-            <picture class="block-showcase__image">
+        <div class="container grid grid--1x2" >
+            <picture class="block-showcase__image" data-aos="fade-right">
                 <source type="image/webp" srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x">
                 <source type="image/png" srcset="images/ipad.png 1x, images/ipad@2x.png 2x">
                 <img src="images/ipad.png" alt="">
             </picture>
-            <ul class="list">
+            <ul class="list" data-aos="fade-up">
                 <li>
                     <div class="media">
                         <div class="media__image">
@@ -285,7 +287,7 @@
     </section>  
 
     <section class="block">
-        <header class="block__header">
+        <header class="block__header" data-aos="zoom-in-up">
             <h2>What our Customers are Saying</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quisquam.
@@ -394,5 +396,9 @@
         </div>
     </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
