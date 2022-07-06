@@ -1,31 +1,22 @@
-const marks = [80, 80, 50];
+const marks = [80, 80, 100];
 
-// 0 - 59: F
-// 60 - 69: D
-// 70 - 79: C
-// 80 - 89: B
-// 90 - 100: A
 
-console.log(calculateGrade(marks));
-
-function calculateAverage(array){
-    let marksTotal = 0;
-
-    for (let index of array) 
-        marksTotal += index;
+function calculateAverage(array) {
+    let grades = 0;
     
-    return marksTotal / array.length;
+    for(let mark of marks) {
+        grades += mark
+    }
+    return grades / marks.length
 }
-
 
 function calculateGrade(marks) {
-
-    const grade = calculateAverage(marks)
-    
-    if ( grade < 60 ) return 'F';
-    if ( grade < 70 ) return 'D';
-    if ( grade < 80 ) return 'C';
-    if ( grade < 90 ) return 'B';
-    return 'A';
+    const total = calculateAverage(marks)
+    if(total < 60) return 'F';
+    if(total < 70) return 'D';
+    if(total < 80) return 'C';
+    if(total < 90) return 'B';
+    return 'A'
 }
 
+console.log(calculateGrade(marks));
