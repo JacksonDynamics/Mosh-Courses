@@ -6,8 +6,12 @@
 
 // Factory Function
 function createAddress(street, city, zipCode) {
-    return {street, city, zipCode}
-};
+    return {
+        street,
+        city,
+        zipCode
+    };
+}
 
 let address1 = createAddress('Pheasant Ridge Trail', 'Lehi', '84043')
 console.log(address1)
