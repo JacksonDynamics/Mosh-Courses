@@ -6,4 +6,6 @@
 
 ### HTML Part 3 - Creating a full webpage project
 
+### JavaScript
+
 ### GIT
