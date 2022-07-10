@@ -17,9 +17,9 @@ console.log(sum)
 // a = 4, c = -4 => a = 0
 // a = 0, c = 4 => a = 4
 
-// const total = numbers.reduce((accumulator, currentValue) => {
-//     return accumulator + currentValue
-// }, 0);
+const total = numbers.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+}, 0);
 
 // OR CLEANER VERSION
 
