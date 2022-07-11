@@ -10,13 +10,12 @@ const movies = [
 // Descending order
 // Pick their title
 
-function sorting(movies) {
-  const filtered = movies
+function myMovies(movies) {
+  return movies
   .filter(movies => movies.year === 2022 && movies.rating >= 4)
   .sort((a, b) => a.rating - b.rating)
   .reverse()
   .map(movie => movie.title)
-  return filtered
 }
 
-  console.log(sorting(movies));
+console.log(myMovies(movies))
