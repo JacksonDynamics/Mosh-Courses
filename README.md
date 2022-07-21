@@ -6,6 +6,8 @@
 
 ### HTML Part 3 - Creating a full webpage project
 
-### JavaScript
+### JavaScript - Learning the basics
+
+### JavaScript Part 2 - Object Oriented Programming
 
 ### GIT
