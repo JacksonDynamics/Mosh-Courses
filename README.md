@@ -10,4 +10,4 @@
 
 ### JavaScript Part 2 - Object Oriented Programming
 
-### GIT
+### GIT - Learning the terminal fully
