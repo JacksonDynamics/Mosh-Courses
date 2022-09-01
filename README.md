@@ -6,7 +6,7 @@
 
 ### HTML Part 3 - Creating a full webpage project
 
-<img src="Snapshot.png" width="400px" />
+<img src="Snapshot.png" width="600px" />
 
 https://jacksondynamics.netlify.app/
 
